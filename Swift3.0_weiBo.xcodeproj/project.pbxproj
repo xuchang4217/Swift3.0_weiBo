@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8503B4531E2E037F004B779B /* XCMainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8503B4521E2E037F004B779B /* XCMainController.swift */; };
+		8503B4551E2E0397004B779B /* XCNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8503B4541E2E0397004B779B /* XCNavigationController.swift */; };
+		8503B4571E2E03AC004B779B /* XCBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8503B4561E2E03AC004B779B /* XCBaseViewController.swift */; };
+		8503B4591E2E04C6004B779B /* XCHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8503B4581E2E04C6004B779B /* XCHomeViewController.swift */; };
+		8503B45B1E2E04D4004B779B /* XCMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8503B45A1E2E04D4004B779B /* XCMessageViewController.swift */; };
+		8503B45D1E2E04E0004B779B /* XCDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8503B45C1E2E04E0004B779B /* XCDiscoverViewController.swift */; };
+		8503B45F1E2E04E9004B779B /* XCMyselfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8503B45E1E2E04E9004B779B /* XCMyselfViewController.swift */; };
+		8503B4631E2E1B23004B779B /* Bundle + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8503B4621E2E1B23004B779B /* Bundle + Extension.swift */; };
 		85AD159B1E2DC46700C073EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AD159A1E2DC46700C073EE /* AppDelegate.swift */; };
 		85AD15A21E2DC46700C073EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85AD15A11E2DC46700C073EE /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -29,7 +37,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		85AD15971E2DC46700C073EE /* Swift3.0_weiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift3.0_weiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8503B4521E2E037F004B779B /* XCMainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCMainController.swift; sourceTree = "<group>"; };
+		8503B4541E2E0397004B779B /* XCNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCNavigationController.swift; sourceTree = "<group>"; };
+		8503B4561E2E03AC004B779B /* XCBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCBaseViewController.swift; sourceTree = "<group>"; };
+		8503B4581E2E04C6004B779B /* XCHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCHomeViewController.swift; sourceTree = "<group>"; };
+		8503B45A1E2E04D4004B779B /* XCMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCMessageViewController.swift; sourceTree = "<group>"; };
+		8503B45C1E2E04E0004B779B /* XCDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCDiscoverViewController.swift; sourceTree = "<group>"; };
+		8503B45E1E2E04E9004B779B /* XCMyselfViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCMyselfViewController.swift; sourceTree = "<group>"; };
+		8503B4601E2E0B80004B779B /* XCBridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCBridging.h; sourceTree = "<group>"; };
+		8503B4621E2E1B23004B779B /* Bundle + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle + Extension.swift"; sourceTree = "<group>"; };
+		85AD15971E2DC46700C073EE /* SwiftWeiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftWeiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85AD159A1E2DC46700C073EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85AD15A11E2DC46700C073EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85AD15A61E2DC46700C073EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,6 +79,101 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8503B4481E2E020C004B779B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8503B44B1E2E020C004B779B /* View */,
+				8503B4511E2E020C004B779B /* ViewModel */,
+				8503B4491E2E020C004B779B /* Model */,
+				8503B44A1E2E020C004B779B /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8503B4491E2E020C004B779B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8503B44A1E2E020C004B779B /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				8503B4611E2E1B09004B779B /* Extension */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		8503B44B1E2E020C004B779B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8503B44E1E2E020C004B779B /* Main */,
+				8503B44D1E2E020C004B779B /* Home */,
+				8503B44F1E2E020C004B779B /* Message */,
+				8503B44C1E2E020C004B779B /* Discover */,
+				8503B4501E2E020C004B779B /* Myself */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8503B44C1E2E020C004B779B /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				8503B45C1E2E04E0004B779B /* XCDiscoverViewController.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		8503B44D1E2E020C004B779B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8503B4581E2E04C6004B779B /* XCHomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8503B44E1E2E020C004B779B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8503B4521E2E037F004B779B /* XCMainController.swift */,
+				8503B4541E2E0397004B779B /* XCNavigationController.swift */,
+				8503B4561E2E03AC004B779B /* XCBaseViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8503B44F1E2E020C004B779B /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				8503B45A1E2E04D4004B779B /* XCMessageViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		8503B4501E2E020C004B779B /* Myself */ = {
+			isa = PBXGroup;
+			children = (
+				8503B45E1E2E04E9004B779B /* XCMyselfViewController.swift */,
+			);
+			path = Myself;
+			sourceTree = "<group>";
+		};
+		8503B4511E2E020C004B779B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8503B4611E2E1B09004B779B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8503B4621E2E1B23004B779B /* Bundle + Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		85AD158E1E2DC46700C073EE = {
 			isa = PBXGroup;
 			children = (
@@ -73,7 +185,7 @@
 		85AD15981E2DC46700C073EE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				85AD15971E2DC46700C073EE /* Swift3.0_weiBo.app */,
+				85AD15971E2DC46700C073EE /* SwiftWeiBo.app */,
 				85AD15AB1E2DC46700C073EE /* Swift3.0_weiBoTests.xctest */,
 				85AD15B61E2DC46700C073EE /* Swift3.0_weiBoUITests.xctest */,
 			);
@@ -83,9 +195,11 @@
 		85AD15991E2DC46700C073EE /* Swift3.0_weiBo */ = {
 			isa = PBXGroup;
 			children = (
+				8503B4481E2E020C004B779B /* Classes */,
 				85AD159A1E2DC46700C073EE /* AppDelegate.swift */,
 				85AD15A11E2DC46700C073EE /* Assets.xcassets */,
 				85AD15A61E2DC46700C073EE /* Info.plist */,
+				8503B4601E2E0B80004B779B /* XCBridging.h */,
 			);
 			path = Swift3.0_weiBo;
 			sourceTree = "<group>";
@@ -107,7 +221,7 @@
 			);
 			name = Swift3.0_weiBo;
 			productName = Swift3.0_weiBo;
-			productReference = 85AD15971E2DC46700C073EE /* Swift3.0_weiBo.app */;
+			productReference = 85AD15971E2DC46700C073EE /* SwiftWeiBo.app */;
 			productType = "com.apple.product-type.application";
 		};
 		85AD15AA1E2DC46700C073EE /* Swift3.0_weiBoTests */ = {
@@ -152,7 +266,7 @@
 		85AD158F1E2DC46700C073EE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = WeiBo;
+				CLASSPREFIX = XC;
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Chang_Mac;
@@ -223,7 +337,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8503B4571E2E03AC004B779B /* XCBaseViewController.swift in Sources */,
+				8503B45F1E2E04E9004B779B /* XCMyselfViewController.swift in Sources */,
+				8503B4591E2E04C6004B779B /* XCHomeViewController.swift in Sources */,
+				8503B4631E2E1B23004B779B /* Bundle + Extension.swift in Sources */,
+				8503B4531E2E037F004B779B /* XCMainController.swift in Sources */,
+				8503B45B1E2E04D4004B779B /* XCMessageViewController.swift in Sources */,
+				8503B45D1E2E04E0004B779B /* XCDiscoverViewController.swift in Sources */,
 				85AD159B1E2DC46700C073EE /* AppDelegate.swift in Sources */,
+				8503B4551E2E0397004B779B /* XCNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,7 +481,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "wasd.Swift3-0-weiBo";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftWeiBo;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SCRROOT)Swift3.0_weiBo/XCBridging.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -374,7 +497,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "wasd.Swift3-0-weiBo";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftWeiBo;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SCRROOT)Swift3.0_weiBo/XCBridging.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
