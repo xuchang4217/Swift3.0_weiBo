@@ -8,12 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		85AD159B1E2DC46700C073EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AD159A1E2DC46700C073EE /* AppDelegate.swift */; };
-		85AD159D1E2DC46700C073EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AD159C1E2DC46700C073EE /* ViewController.swift */; };
-		85AD15A01E2DC46700C073EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85AD159E1E2DC46700C073EE /* Main.storyboard */; };
 		85AD15A21E2DC46700C073EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85AD15A11E2DC46700C073EE /* Assets.xcassets */; };
-		85AD15A51E2DC46700C073EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85AD15A31E2DC46700C073EE /* LaunchScreen.storyboard */; };
-		85AD15B01E2DC46700C073EE /* Swift3_0_weiBoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AD15AF1E2DC46700C073EE /* Swift3_0_weiBoTests.swift */; };
-		85AD15BB1E2DC46700C073EE /* Swift3_0_weiBoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AD15BA1E2DC46700C073EE /* Swift3_0_weiBoUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,17 +31,10 @@
 /* Begin PBXFileReference section */
 		85AD15971E2DC46700C073EE /* Swift3.0_weiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift3.0_weiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85AD159A1E2DC46700C073EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		85AD159C1E2DC46700C073EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		85AD159F1E2DC46700C073EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85AD15A11E2DC46700C073EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		85AD15A41E2DC46700C073EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85AD15A61E2DC46700C073EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85AD15AB1E2DC46700C073EE /* Swift3.0_weiBoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift3.0_weiBoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		85AD15AF1E2DC46700C073EE /* Swift3_0_weiBoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift3_0_weiBoTests.swift; sourceTree = "<group>"; };
-		85AD15B11E2DC46700C073EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85AD15B61E2DC46700C073EE /* Swift3.0_weiBoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift3.0_weiBoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		85AD15BA1E2DC46700C073EE /* Swift3_0_weiBoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift3_0_weiBoUITests.swift; sourceTree = "<group>"; };
-		85AD15BC1E2DC46700C073EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				85AD15991E2DC46700C073EE /* Swift3.0_weiBo */,
-				85AD15AE1E2DC46700C073EE /* Swift3.0_weiBoTests */,
-				85AD15B91E2DC46700C073EE /* Swift3.0_weiBoUITests */,
 				85AD15981E2DC46700C073EE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,31 +84,10 @@
 			isa = PBXGroup;
 			children = (
 				85AD159A1E2DC46700C073EE /* AppDelegate.swift */,
-				85AD159C1E2DC46700C073EE /* ViewController.swift */,
-				85AD159E1E2DC46700C073EE /* Main.storyboard */,
 				85AD15A11E2DC46700C073EE /* Assets.xcassets */,
-				85AD15A31E2DC46700C073EE /* LaunchScreen.storyboard */,
 				85AD15A61E2DC46700C073EE /* Info.plist */,
 			);
 			path = Swift3.0_weiBo;
-			sourceTree = "<group>";
-		};
-		85AD15AE1E2DC46700C073EE /* Swift3.0_weiBoTests */ = {
-			isa = PBXGroup;
-			children = (
-				85AD15AF1E2DC46700C073EE /* Swift3_0_weiBoTests.swift */,
-				85AD15B11E2DC46700C073EE /* Info.plist */,
-			);
-			path = Swift3.0_weiBoTests;
-			sourceTree = "<group>";
-		};
-		85AD15B91E2DC46700C073EE /* Swift3.0_weiBoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				85AD15BA1E2DC46700C073EE /* Swift3_0_weiBoUITests.swift */,
-				85AD15BC1E2DC46700C073EE /* Info.plist */,
-			);
-			path = Swift3.0_weiBoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +152,7 @@
 		85AD158F1E2DC46700C073EE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WeiBo;
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Chang_Mac;
@@ -232,9 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85AD15A51E2DC46700C073EE /* LaunchScreen.storyboard in Resources */,
 				85AD15A21E2DC46700C073EE /* Assets.xcassets in Resources */,
-				85AD15A01E2DC46700C073EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +223,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85AD159D1E2DC46700C073EE /* ViewController.swift in Sources */,
 				85AD159B1E2DC46700C073EE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +231,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85AD15B01E2DC46700C073EE /* Swift3_0_weiBoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +238,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85AD15BB1E2DC46700C073EE /* Swift3_0_weiBoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,25 +255,6 @@
 			targetProxy = 85AD15B71E2DC46700C073EE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		85AD159E1E2DC46700C073EE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				85AD159F1E2DC46700C073EE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		85AD15A31E2DC46700C073EE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				85AD15A41E2DC46700C073EE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		85AD15BD1E2DC46700C073EE /* Debug */ = {
@@ -412,11 +354,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Swift3.0_weiBo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "wasd.Swift3-0-weiBo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -424,11 +369,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Swift3.0_weiBo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "wasd.Swift3-0-weiBo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -505,6 +453,7 @@
 				85AD15C11E2DC46700C073EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85AD15C21E2DC46700C073EE /* Build configuration list for PBXNativeTarget "Swift3.0_weiBoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +462,7 @@
 				85AD15C41E2DC46700C073EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85AD15C51E2DC46700C073EE /* Build configuration list for PBXNativeTarget "Swift3.0_weiBoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +471,7 @@
 				85AD15C71E2DC46700C073EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
